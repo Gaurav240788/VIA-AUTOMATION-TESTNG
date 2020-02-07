@@ -1,0 +1,8 @@
+/html/body/div[2]/div[2]/div[2]/div[2]/table/tbody[2]/tr/td[4]/a
+
+Site - Placement Summary Report
+
+"link=Subject(s)
+      link=Site(s)  link=Mentor(s) link=Placement(s)  link=Internship(s)
+
+selts12.click("xpath=//html/body/div/div[1]/div/form/div[1]/div/div[2]/a");

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56683" started-at="2020-02-06T13:25:10Z" finished-at="2020-02-06T13:26:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56683" started-at="2020-02-06T13:25:10Z" finished-at="2020-02-06T13:26:06Z">
+      <class name="VIA_Sanity_Scripts.VIA_Import_Test">
+        <test-method status="PASS" signature="classLevelSetup()[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="classLevelSetup" is-config="true" duration-ms="19928" started-at="2020-02-06T18:55:11Z" finished-at="2020-02-06T18:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method status="PASS" signature="locatorproperties()[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="locatorproperties" is-config="true" duration-ms="1" started-at="2020-02-06T18:55:30Z" finished-at="2020-02-06T18:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatorproperties -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="methodLevelSetup" is-config="true" duration-ms="11" started-at="2020-02-06T18:55:30Z" finished-at="2020-02-06T18:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="testLevelSetup()[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="testLevelSetup" is-config="true" duration-ms="10428" started-at="2020-02-06T18:55:30Z" finished-at="2020-02-06T18:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLevelSetup -->
+        <test-method status="PASS" signature="go_to_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="go_to_Import" duration-ms="1845" started-at="2020-02-06T18:55:41Z" description="Import Functionality" finished-at="2020-02-06T18:55:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.go_to_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_Import -->
+        <test-method status="PASS" signature="hierachy_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="hierachy_Import" duration-ms="17132" started-at="2020-02-06T18:55:43Z" description="Hierarchy Import Functionality" finished-at="2020-02-06T18:56:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.hierachy_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hierachy_Import -->
+        <test-method status="PASS" signature="users_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="users_Import" duration-ms="6480" started-at="2020-02-06T18:56:00Z" description="Users Import Functionality" finished-at="2020-02-06T18:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.users_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users_Import -->
+        <test-method status="PASS" signature="grouptemplates_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="grouptemplates_Import" duration-ms="4" started-at="2020-02-06T18:56:06Z" description="Group Template Import Functionality" finished-at="2020-02-06T18:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.grouptemplates_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptemplates_Import -->
+        <test-method status="PASS" signature="groups_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="groups_Import" duration-ms="6" started-at="2020-02-06T18:56:06Z" description="Group Import Functionality" finished-at="2020-02-06T18:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.groups_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groups_Import -->
+        <test-method status="PASS" signature="membership_Import(java.lang.reflect.Method)[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="membership_Import" duration-ms="3" started-at="2020-02-06T18:56:06Z" description="Membership Import Functionality" finished-at="2020-02-06T18:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VIA_Sanity_Scripts.VIA_Import_Test.membership_Import(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- membership_Import -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:VIA_Sanity_Scripts.VIA_Import_Test@53b32d7]" name="teardown" is-config="true" duration-ms="0" started-at="2020-02-06T18:56:06Z" finished-at="2020-02-06T18:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- VIA_Sanity_Scripts.VIA_Import_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

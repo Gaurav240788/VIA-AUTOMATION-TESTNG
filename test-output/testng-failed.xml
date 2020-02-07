@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilities.Reporting"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="VIA_Sanity_Scripts.VIA_Import_Test">
+        <methods>
+          <include name="hierachy_Import"/>
+          <include name="groups_Import"/>
+          <include name="membership_Import"/>
+          <include name="grouptemplates_Import"/>
+          <include name="classLevelSetup"/>
+          <include name="go_to_Import"/>
+          <include name="users_Import"/>
+        </methods>
+      </class> <!-- VIA_Sanity_Scripts.VIA_Import_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

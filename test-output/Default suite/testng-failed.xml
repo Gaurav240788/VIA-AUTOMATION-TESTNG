@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="VIA_Sanity_Scripts.VIA_Import_Test">
+        <methods>
+          <include name="methodLevelSetup"/>
+          <include name="hierachy_Import" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="locatorproperties"/>
+          <include name="testLevelSetup"/>
+          <include name="classLevelSetup"/>
+        </methods>
+      </class> <!-- VIA_Sanity_Scripts.VIA_Import_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
