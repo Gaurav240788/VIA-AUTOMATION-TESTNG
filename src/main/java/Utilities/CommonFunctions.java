@@ -18,7 +18,7 @@ import com.aventstack.extentreports.Status;
 
 public class CommonFunctions 
 {
-	public static WebDriver driver;
+	public WebDriver driver;
 	public static WebDriverWait wait;
 	public static Properties testdata;
 
@@ -70,7 +70,7 @@ public class CommonFunctions
 		}
 	
 	// Click Method
-	public static void click(By elementBy, String clickableElement) 
+	public void click(By elementBy, String clickableElement) 
 		{
 			try 
 				{
